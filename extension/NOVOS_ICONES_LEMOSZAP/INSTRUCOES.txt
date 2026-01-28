@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+  INSTRUÇÕES PARA SUBSTITUIR OS ÍCONES E BRANDING DO LEMOSZAP
+═══════════════════════════════════════════════════════════════
+
+📁 LOCALIZAÇÃO DOS NOVOS ARQUIVOS:
+   D:\extersao zap\LEMOSzap\NOVOS_ICONES_LEMOSZAP\
+
+📋 ARQUIVOS CRIADOS:
+   ✅ icon.png             - Ícone principal (Versão 3)
+   ✅ icon_v1_3D.png       - Ícone Alternativo (Versão 1 - 3D)
+   ✅ logo.png             - Logo horizontal
+   ✅ plugin_login.png     - Logo completo para login
+   ✅ substituir-icones.ps1 - Troca os ícones automaticamente
+   ✅ atualizar-branding.ps1 - Troca o nome WaSeller para LEMOSzap
+
+═══════════════════════════════════════════════════════════════
+  PASSO A PASSO PARA ATUALIZAÇÃO COMPLETA
+═══════════════════════════════════════════════════════════════
+
+MÉTODO AUTOMÁTICO (RECOMENDADO):
+────────────────────────────────────────────────────────────────
+
+1. Feche o navegador Chrome/Edge completamente.
+
+2. Clique com o botão direito em "substituir-icones.ps1" e selecione 
+   "Executar com o PowerShell".
+   (Isso vai trocar as imagens)
+
+3. Clique com o botão direito em "atualizar-branding.ps1" e selecione 
+   "Executar com o PowerShell".
+   (Isso vai trocar os nomes WaSeller para LEMOSzap nos arquivos)
+
+4. Abra o Chrome/Edge, vá em chrome://extensions/ e clique para 
+   recarregar a extensão.
+
+
+MÉTODO MANUAL:
+────────────────────────────────────────────────────────────────
+
+1. Copie icon.png, logo.png e plugin_login.png para:
+   D:\extersao zap\LEMOSzap\label\icons\plugin\
+
+2. Abra o arquivo manifest.json e troque "WaSeller" por "LEMOSzap".
+
+3. Abra label/config/utils.json e troque "WaSeller" por "LEMOSzap".

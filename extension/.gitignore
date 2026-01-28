@@ -1,0 +1,46 @@
+# Arquivos de build e dependências
+node_modules/
+dist/
+build/
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de configuração local
+.env
+.env.local
+config.local.js
+
+# Arquivos de teste
+coverage/
+.nyc_output/
+
+# Arquivos compactados
+*.zip
+*.crx
+*.pem
+
+# Chaves privadas (IMPORTANTE!)
+*.pem
+*.key
+private/
+secrets/

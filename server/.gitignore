@@ -1,0 +1,47 @@
+# Ambiente virtual Python
+venv/
+env/
+ENV/
+.venv
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+clientes.json
+*.json.bak
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Backups
+*.bak
+*.backup

@@ -1,0 +1,59 @@
+{
+   "action": {
+      "default_icon": "label/icons/plugin/icon.png"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [
+      {
+         "css": [
+            "label/css/lemoszap.css",
+            "content/assets/css/style.css",
+            "content.css"
+         ],
+         "js": [
+            "content/index.js"
+         ],
+         "matches": [
+            "https://web.whatsapp.com/*"
+         ]
+      }
+   ],
+   "description": "LEMOSzap é um CRM completo para WhatsApp Web. Organize seus chats e otimize seus negócios no WhatsApp Web",
+   "externally_connectable": {
+      "matches": [
+         "https://web.whatsapp.com/*"
+      ]
+   },
+   "icons": {
+      "128": "label/icons/plugin/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlI2djIo8X/+vEdgoDNG3mQfgTl8s6zC6MqV03+G5XgMTLTcKJWxFwCCo177e0a04S7zNQdvYKTLA1Q22FNKdjWmX53Xkk3FH3Q3XX3EQ/zpAZmLoR5qtecn54JVIgNVXgJ3KF6trjpvXxtUr4WR9CgScHImObLwcYKwaTKVZbtQWigu9OeBtIgmoQnAnai6uBxuffkZ4/6VxKj/EiDmusMaR87ZHcPJrd9T4VnJeR3Wk0xf5Z2LiaP+0D3ZbN22tLNKhZGKGPn7bhR4HJ/qJ6IZBufuLuzh++1sXekRjpLV1qAbV19tp49V2qQzE1X3xTENwujaE1Ia1wDkinh35jwIDAQAB",
+   "manifest_version": 3,
+   "name": "LEMOSzap - CRM para WhatsApp Web",
+   "permissions": [
+      "unlimitedStorage",
+      "storage",
+      "alarms",
+      "tabs"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.4.3.6",
+   "web_accessible_resources": [
+      {
+         "matches": [
+            "https://web.whatsapp.com/*"
+         ],
+         "resources": [
+            "*.js",
+            "*.css",
+            "*.png",
+            "*.mp3",
+            ".ttf",
+            "label/*.json",
+            "label/*.png"
+         ]
+      }
+   ]
+}
