@@ -17,6 +17,14 @@
             "expira_em": "2026-02-06",
             "status": "ATIVO",
             "quantidade_maquinas": "1"
+        },
+        {
+            "whatsapp": "000000000",
+            "licenca": "ATIVA",
+            "premium": "sim",
+            "expira_em": "2026-02-06",
+            "status": "ATIVO",
+            "quantidade_maquinas": "1"
         }
     ]
 }
