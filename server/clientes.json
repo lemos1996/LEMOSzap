@@ -1,0 +1,13 @@
+{
+  "clientes": [
+    {
+      "nome": "LEMOS ADM",
+      "whatsapp": "93991513915",
+      "licenca": "ATIVA",
+      "Premium ativa": "sim",
+      "expira_em": "2030-01-01",
+      "status": "ATIVO",
+      "id_da_maquina": ""
+    }
+  ]
+}
