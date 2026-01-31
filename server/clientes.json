@@ -7,7 +7,9 @@
             "expira_em": "2030-01-01",
             "status": "ATIVO",
             "quantidade_maquinas": "5",
-            "device_ids": []
+            "device_ids": [
+                "elite_dq6d9efzlml2u95i5"
+            ]
         },
         {
             "nome": "teste",
