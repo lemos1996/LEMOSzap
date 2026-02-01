@@ -1,17 +1,6 @@
 {
     "clientes": [
         {
-            "whatsapp": "93991513915",
-            "licenca": "LEMOS",
-            "premium": "sim",
-            "expira_em": "2030-01-01",
-            "status": "ATIVO",
-            "quantidade_maquinas": "5",
-            "device_ids": [
-                "elite_55sy0g7acml46zd2i"
-            ]
-        },
-        {
             "nome": "teste",
             "whatsapp": "0000000000",
             "licenca": "ATIVA",
