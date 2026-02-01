@@ -10,6 +10,17 @@
             "device_ids": [
                 "elite_54qx686axml48yydw"
             ]
+        },
+        {
+            "whatsapp": "559391513915",
+            "licenca": "LEMOS",
+            "premium": "sim",
+            "expira_em": "2027-02-01",
+            "status": "ATIVO",
+            "quantidade_maquinas": "5",
+            "device_ids": [
+                "elite_54qx686axml48yydw"
+            ]
         }
     ]
 }
