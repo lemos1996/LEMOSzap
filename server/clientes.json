@@ -8,7 +8,8 @@
             "status": "ATIVO",
             "quantidade_maquinas": "5",
             "device_ids": [
-                "elite_te2xu6371ml4hiqc4"
+                "elite_te2xu6371ml4hiqc4",
+                "ID_NÃO_ENCONTRADO"
             ]
         }
     ]
