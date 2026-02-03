@@ -7,10 +7,7 @@
             "expira_em": "2027-02-01",
             "status": "ATIVO",
             "quantidade_maquinas": "5",
-            "device_ids": [
-                "elite_te2xu6371ml4hiqc4",
-                "ID_NÃO_ENCONTRADO"
-            ]
+            "device_ids": []
         }
     ]
 }
